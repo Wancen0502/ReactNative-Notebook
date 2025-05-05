@@ -1,1 +1,1 @@
-It is a notebook tracks my study roadmap of react native.
+It is a notebook tracks my study roadmap of React Native.

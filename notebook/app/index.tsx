@@ -10,8 +10,10 @@ import Flex from './src_02_Flexbox/Flex.jsx'
 //Responsive Design
 import Dimension from './src_03_Dimensions/Dimension.jsx'
 //Components
-//import AlertAndButton from './src_04_Components/AlertAndButton.jsx'
+import AlertAndButton from './src_04_Components/AlertAndButton.jsx'
 import SwitchAndStatusBar from './src_04_Components/SwitchAndStatusBar.jsx'
+import ActivityIndicatorComponent from './src_04_Components/ActivityIndicatorComponent.jsx'
+import ImageComponent from './src_04_Components/ImageComponent.jsx'
 
 
 export default function Index() {
@@ -23,6 +25,8 @@ export default function Index() {
   //<Flex/>
   //<Dimension/>
   //<AlertAndButton/>
-  <SwitchAndStatusBar/>
+  //<SwitchAndStatusBar/>
+  //<ActivityIndicatorComponent/>
+  <ImageComponent/>
   );
 }

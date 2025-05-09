@@ -14,6 +14,7 @@ import AlertAndButton from './src_04_Components/AlertAndButton.jsx'
 import SwitchAndStatusBar from './src_04_Components/SwitchAndStatusBar.jsx'
 import ActivityIndicatorComponent from './src_04_Components/ActivityIndicatorComponent.jsx'
 import ImageComponent from './src_04_Components/ImageComponent.jsx'
+import TextInputComponent from './src_04_Components/TextInputComponent.jsx'
 
 
 export default function Index() {
@@ -27,6 +28,7 @@ export default function Index() {
   //<AlertAndButton/>
   //<SwitchAndStatusBar/>
   //<ActivityIndicatorComponent/>
-  <ImageComponent/>
+  //<ImageComponent/>
+  <TextInputComponent />
   );
 }

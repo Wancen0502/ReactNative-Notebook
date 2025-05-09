@@ -5,9 +5,10 @@ const TextInputComponent = ()=>{
 
      const [userName, setUserName] = useState('')
      const [password, setPassword] = useState('')
+     const [phoneNum, setPhoneNum] = useState('')
 
     doLogin = ()=>{
-        alert(`Username: ${userName}`)
+        alert(`Username: ${phoneNum}`)
         }
 
     return(
@@ -25,9 +26,23 @@ const TextInputComponent = ()=>{
                 secureTextEntry={true}
                 onChangeText ={(val) => setPassword(val)}
             />
+            <TextInput
+                style={[styles.input]}
+                placeholder='phone number'
+                keyBoardType="number-pad"
+                value={phoneNum}
+                onChangeText ={(val) => setPhoneNum(`${val}`)}
+            />
+            <TextInput
+                style={[styles.input]}
+                placeholder='self Introduction'
+                multiline = {true}
+                numberOfLines = {5}
+                textAlignVertical = 'top'
+            />
             <View>
                 <Button
-                    title='Login'
+                    title='Confirm'
                     onPress={doLogin}
                 />
             </View>

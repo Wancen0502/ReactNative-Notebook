@@ -15,7 +15,9 @@ import SwitchAndStatusBar from './src_04_Components/SwitchAndStatusBar.jsx'
 import ActivityIndicatorComponent from './src_04_Components/ActivityIndicatorComponent.jsx'
 import ImageComponent from './src_04_Components/ImageComponent.jsx'
 import TextInputComponent from './src_04_Components/TextInputComponent.jsx'
-
+import Touchable from './src_04_Components/Touchable.jsx'
+import ScrollViewAndSafeAreaView from './src_04_Components/ScrollViewAndSafeAreaView.jsx'
+import SectionListComponent from './src_04_Components/SectionListComponent.jsx'
 
 export default function Index() {
   return (
@@ -29,6 +31,9 @@ export default function Index() {
   //<SwitchAndStatusBar/>
   //<ActivityIndicatorComponent/>
   //<ImageComponent/>
-  <TextInputComponent />
+  //<TextInputComponent/>
+  //<Touchable/>
+  //<ScrollViewAndSafeAreaView/>
+  <SectionListComponent/>
   );
 }

@@ -65,8 +65,6 @@ const styles = StyleSheet.create({
     btn:{
         margin:20
     }
-
-
     })
 
 export default TextInputComponent;

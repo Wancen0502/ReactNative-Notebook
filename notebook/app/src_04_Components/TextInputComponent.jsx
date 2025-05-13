@@ -7,7 +7,7 @@ const TextInputComponent = ()=>{
      const [password, setPassword] = useState('')
      const [phoneNum, setPhoneNum] = useState('')
 
-    doLogin = ()=>{
+    const doLogin = ()=>{
         alert(`Username: ${phoneNum}`)
         }
 

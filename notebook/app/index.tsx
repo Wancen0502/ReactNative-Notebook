@@ -22,6 +22,7 @@ import FlatListComponent from './src_04_Components/FlatListComponent.jsx'
 import AnimatedApi from './src_04_Components/AnimatedApi.jsx'
 import WebViewComponent from './src_04_Components/WebViewComponent.jsx'
 import PickerComponent from './src_04_Components/PickerComponent.jsx'
+import SwiperComponent from './src_04_Components/SwiperComponent.jsx'
 
 export default function Index() {
   return (
@@ -42,6 +43,7 @@ export default function Index() {
   //<FlatListComponent/>
   //<AnimatedApi/>
   //<WebViewComponent/>
-  <PickerComponent/>
+  //<PickerComponent/>
+  <SwiperComponent/>
   );
 }

@@ -20,6 +20,8 @@ import ScrollViewAndSafeAreaView from './src_04_Components/ScrollViewAndSafeArea
 import SectionListComponent from './src_04_Components/SectionListComponent.jsx'
 import FlatListComponent from './src_04_Components/FlatListComponent.jsx'
 import AnimatedApi from './src_04_Components/AnimatedApi.jsx'
+import WebViewComponent from './src_04_Components/WebViewComponent.jsx'
+import PickerComponent from './src_04_Components/PickerComponent.jsx'
 
 export default function Index() {
   return (
@@ -38,6 +40,8 @@ export default function Index() {
   //<ScrollViewAndSafeAreaView/>
   //<SectionListComponent/>
   //<FlatListComponent/>
-  <AnimatedApi/>
+  //<AnimatedApi/>
+  //<WebViewComponent/>
+  <PickerComponent/>
   );
 }
